@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex justify-content-center" data-aos="fade-right" data-aos-duration="2000">
+  <div class="d-flex justify-content-center">
     <img :src="img" id="img-template" />
   </div>
 </template>

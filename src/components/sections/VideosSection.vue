@@ -13,6 +13,8 @@
                     <TitleTemplate :text="videos[0].label" :color="'#CF1554'" class="col-12" />
                     <TextTemplate :text="videos[0].description"
                         :color="'#252525'" :destakText="''" :destakColor="'#CF1554'" class="col-12" />
+                        <TextTemplate :text="''"
+                        :color="'#252525'" :destakText="videos[0].credits" :destakColor="'#CF1554'" class="col-12" />
                 </div>
             </div>
         </div>
@@ -23,6 +25,8 @@
                     <TitleTemplate :text="videos[1].label" :color="'#CF1554'" class="col-12" />
                     <TextTemplate :text="videos[1].description"
                         :color="'#252525'" :destakText="''" :destakColor="'#CF1554'" class="col-12" />
+                    <TextTemplate :text="''"
+                        :color="'#252525'" :destakText="videos[1].credits" :destakColor="'#CF1554'" class="col-12" />
                 </div>
             </div>
             <div class="col-md-6 col-sm-12">
@@ -45,6 +49,8 @@
                     <TitleTemplate :text="videos[2].label" :color="'#CF1554'" class="col-12" />
                     <TextTemplate :text="videos[2].description"
                         :color="'#252525'" :destakText="''" :destakColor="'#CF1554'" class="col-12" />
+                    <TextTemplate :text="''"
+                        :color="'#252525'" :destakText="videos[2].credits" :destakColor="'#CF1554'" class="col-12" />
                 </div>
             </div>
         </div>
@@ -67,18 +73,21 @@ export default {
                 {
                     label: 'Puxa saco',
                     description:'Aprenda fazer um incrível Puxa Saco recilável, sem costura, usando garrafa pet!',
+                    credits:'Canal Tati Decora (Youtube)',
                     icone: require('@/assets/puxa-saco.png'),
                     link: 'https://www.youtube.com/embed/DzoNMDRpmUA',
                 },
                 {
                     label: 'Palmeira',
                     description:`Neste vídeo você vai aprender fazer uma linda palmeira para enfeitar sua casa ou presentear alguem. E o melhor: Reciclável, usando garrafa pet!`,
+                    credits:'Canal Arte com Pet (Youtube)',
                     icone: require('@/assets/palmeira.png'),
                     link: 'https://www.youtube.com/embed/gI-1Z73MhFM',
                 },
                 {
                     label: 'Lixeira',
                     description:'Lugar de Lixo é no Lixo. Aprenda a fazer essa maravilhosa lixeira de garrafa pet, totalmente reciclável!',
+                    credits:'Canal Maria Maria (Youtube)',
                     icone: require('@/assets/cesto.png'),
                     link: 'https://www.youtube.com/embed/sWd_uktmOiw',
                 },

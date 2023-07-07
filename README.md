@@ -1,4 +1,4 @@
-# 08-duckbank
+# Site de Reciclagem - Trabalho Acadêmico
 
 ## Project setup
 ```
